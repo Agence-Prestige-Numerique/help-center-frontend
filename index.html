@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center - Accueil</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="preload" href="./videos/hero.mp4" as="video" type="video/mp4">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">APN - Centre d'Aide</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <video autoplay muted loop id="hero-video">
+            <source src="./videos/hero.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <div class="container">
+            <h1>Bienvenue sur notre centre d'aide</h1>
+            <p>Nous sommes là pour vous aider. Explorez nos articles pour trouver des réponses à vos questions.</p>
+            <a href="#articles" class="btn">Voir les articles</a>
+        </div>
+    </header>
+
+    <section class="popular-articles" id="articles">
+        <section class="search-section">
+            <div class="container">
+                <input type="text" id="search-bar" placeholder="Rechercher un article...">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </section>
+        <div class="container">
+            <h2>Catégorie 1</h2>
+            <div class="article-grid">
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h2>Catégorie 2</h2>
+            <div class="article-grid">
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h2>Catégorie 3</h2>
+            <div class="article-grid">
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="article-card">
+                    <h3>Titre</h3>
+                    <p>Description</p>
+                    <a href="article.html" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 | Centre d'aide | Par <a href="https://agence-prestige-numerique.fr/">Agence Prestige Numerique</a>. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+</html>
