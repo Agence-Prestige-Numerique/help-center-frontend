@@ -31,6 +31,16 @@ Le **Centre d'Aide** est une solution web complète qui permet aux entreprises d
 - **Design moderne** : Une expérience visuelle agréable et immersive.
 
 ---
+### **Captures d'écrans :**
+![Capture d'écran du Centre d'Aide](./img/1.png)
+![Capture d'écran du Centre d'Aide](./img/2.png)
+![Capture d'écran du Centre d'Aide](./img/3.png)
+![Capture d'écran du Centre d'Aide](./img/4.png)
+![Capture d'écran du Centre d'Aide](./img/5.png)
+![Capture d'écran du Centre d'Aide](./img/6.png)
+
+
+---
 
 ## **Conditions d'utilisation**
 
@@ -47,12 +57,6 @@ Pour toute question ou demande d'assistance, n'hésitez pas à nous contacter :
 - **Site web** : [Agence Prestige Numérique](https://agence-prestige-numerique.fr/)
 - **Email** : axel-l@agence-prestige-numerique.fr
 - **Téléphone** : +33 6 67 81 19 07
-
----
-
-## **Remerciements**
-
-Nous remercions tous ceux qui ont contribué à ce projet, ainsi que nos clients pour leur confiance. Ce Centre d'Aide est le fruit d'un travail collaboratif et passionné.
 
 ---
 
