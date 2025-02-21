@@ -2,6 +2,7 @@
 
 Bienvenue sur le **Centre d'Aide** développé par **Agence Prestige Numérique**. Ce projet est une plateforme moderne et intuitive conçue pour fournir un support client efficace et accessible à tous.
 
+> **Demo : [https://agence-prestige-numerique.fr/demo/help-center/](https://agence-prestige-numerique.fr/demo/help-center/)**
 ---
 
 ## **À propos du projet**
